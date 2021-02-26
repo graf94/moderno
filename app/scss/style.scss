@@ -1,9 +1,18 @@
-html {
-    box-sizing: border-box;
+@import '_vars';
+@import '_global';
+@import '_fonts';
+.header__top-inner {
+    display: flex;
+    justify-content: space-between;
+    height: 91px;
+    align-items: center;
+    /*центрируем элементы*/
 }
 
-*,
-*::before,
-*::after {
-    box-sizing: inherit;
+.header__text {
+    margin-left: auto;
+    padding-right: 25px;
+    span {
+        color: #ef887d;
+    }
 }
