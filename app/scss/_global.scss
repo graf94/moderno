@@ -11,7 +11,7 @@ html {
 a {
     display: inline-block;
     text-decoration: none;
-    color: $color-text;
+    color: $text;
 }
 
 ul,
@@ -22,10 +22,10 @@ li {
 }
 
 body {
-    font-family: 'Roboto-Regular';
+    font-family: 'Roboto-Regular', sans-serif;
     font-size: 15px;
     line-height: 24px;
-    color: $color-text;
+    color: $text;
 }
 
 .container {
